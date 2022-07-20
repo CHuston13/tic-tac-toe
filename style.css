@@ -1,17 +1,24 @@
-.box {
-    background: #9E9E9E;
-    border: black 1px solid;
-    width: 180px;
-    height: 180px;
-    margin: 0 auto;
-    margin-top: 0;
-    cursor: pointer;
-    display: inline-block;
-   
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.row {
-    display: block;
-    float:left;
-    width:100%;
+section{
+    text-align: center;
+}
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 306px;
+    margin: 50px auto;
+    
+}
+
+.cell{
+    border: 1px solid black;
+    font-family: "permanent marker",cursive;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
 }
